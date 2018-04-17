@@ -1,0 +1,16 @@
+PODS:
+  - DORouter (0.1.0)
+
+DEPENDENCIES:
+  - DORouter (from `../`)
+
+EXTERNAL SOURCES:
+  DORouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DORouter: 4c8235a413a0933826201acdfcbfddec9984045c
+
+PODFILE CHECKSUM: 8c06af830d883ad3bce4872e38bfacd8ba56af6f
+
+COCOAPODS: 1.5.0

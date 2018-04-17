@@ -1,0 +1,6 @@
+framework module DORouter {
+  umbrella header "DORouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

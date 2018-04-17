@@ -1,0 +1,22 @@
+{
+  "name": "DORouter",
+  "version": "0.1.0",
+  "summary": "A short description of DORouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kill_death@163.com/DORouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kill_death@163.com": "kill_death@163.com"
+  },
+  "source": {
+    "git": "https://github.com/kill_death@163.com/DORouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DORouter/Classes/**/*"
+}
