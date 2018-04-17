@@ -7,12 +7,21 @@
 //
 
 #import "DOAppDelegate.h"
+#import "DORootVC.h"
 
 @implementation DOAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    
+    
+    DORootVC *root_vc = [[DORootVC alloc] init];
+    UINavigationController *root_nav = [[UINavigationController alloc] initWithRootViewController:root_vc];
+    
+    self.window.rootViewController = root_nav;
+    
     return YES;
 }
 

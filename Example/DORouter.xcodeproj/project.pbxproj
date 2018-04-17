@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01CB0C49208667FC004AD985 /* DORootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB0C47208667FC004AD985 /* DORootVC.m */; };
+		01CB0C4C20866846004AD985 /* DOTarget_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB0C4A20866845004AD985 /* DOTarget_Custom.m */; };
+		01CB0C4F2086685C004AD985 /* DOTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB0C4D2086685C004AD985 /* DOTestVC.m */; };
 		2C0F3BCE689FB932E9410899 /* Pods_DORouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBACF9946213A2CDF0BD1511 /* Pods_DORouter_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -14,7 +17,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* DOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* DOAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* DOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* DOViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,7 +24,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C5B49AEE0B5694132D727DF6 /* Pods_DORouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1858A3E1F8FE2AE117E16B /* Pods_DORouter_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,8 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01CB0C47208667FC004AD985 /* DORootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DORootVC.m; sourceTree = "<group>"; };
+		01CB0C48208667FC004AD985 /* DORootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DORootVC.h; sourceTree = "<group>"; };
+		01CB0C4A20866845004AD985 /* DOTarget_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOTarget_Custom.m; sourceTree = "<group>"; };
+		01CB0C4B20866846004AD985 /* DOTarget_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOTarget_Custom.h; sourceTree = "<group>"; };
+		01CB0C4D2086685C004AD985 /* DOTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOTestVC.m; sourceTree = "<group>"; };
+		01CB0C4E2086685C004AD985 /* DOTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOTestVC.h; sourceTree = "<group>"; };
 		16C4A74EB1D7A44A873CBD7D /* Pods-DORouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DORouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DORouter_Example/Pods-DORouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1C9E3E44320C1C1588342CEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1C9E3E44320C1C1588342CEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DORouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DORouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,8 +56,6 @@
 		6003F59B195388D20070C39A /* DORouter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DORouter-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* DOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* DOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* DOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* DOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* DORouter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DORouter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,11 +65,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6D1858A3E1F8FE2AE117E16B /* Pods_DORouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DORouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A0DC30D0BECE0B7D9215AE59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A0DC30D0BECE0B7D9215AE59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C304F1B6B0B6C9B6D02533C2 /* Pods-DORouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DORouter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DORouter_Tests/Pods-DORouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E9ED754A1F887468046FC2E8 /* Pods-DORouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DORouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DORouter_Example/Pods-DORouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F3721D1457D22981B9C26724 /* DORouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DORouter.podspec; path = ../DORouter.podspec; sourceTree = "<group>"; };
+		F3721D1457D22981B9C26724 /* DORouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DORouter.podspec; path = ../DORouter.podspec; sourceTree = "<group>"; };
 		F68BC822A82205B79413D4E6 /* Pods-DORouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DORouter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DORouter_Tests/Pods-DORouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBACF9946213A2CDF0BD1511 /* Pods_DORouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DORouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -134,9 +138,12 @@
 			children = (
 				6003F59C195388D20070C39A /* DOAppDelegate.h */,
 				6003F59D195388D20070C39A /* DOAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* DOViewController.h */,
-				6003F5A6195388D20070C39A /* DOViewController.m */,
+				01CB0C48208667FC004AD985 /* DORootVC.h */,
+				01CB0C47208667FC004AD985 /* DORootVC.m */,
+				01CB0C4E2086685C004AD985 /* DOTestVC.h */,
+				01CB0C4D2086685C004AD985 /* DOTestVC.m */,
+				01CB0C4B20866846004AD985 /* DOTarget_Custom.h */,
+				01CB0C4A20866845004AD985 /* DOTarget_Custom.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -276,7 +283,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -355,8 +361,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CB0C4C20866846004AD985 /* DOTarget_Custom.m in Sources */,
+				01CB0C49208667FC004AD985 /* DORootVC.m in Sources */,
 				6003F59E195388D20070C39A /* DOAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* DOViewController.m in Sources */,
+				01CB0C4F2086685C004AD985 /* DOTestVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

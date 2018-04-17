@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DORouter.h"
 
 FOUNDATION_EXPORT double DORouterVersionNumber;
 FOUNDATION_EXPORT const unsigned char DORouterVersionString[];

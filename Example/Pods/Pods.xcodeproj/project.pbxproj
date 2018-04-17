@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		097F37B915AD53079FAB5810B97C8B71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0AFE48BFB311DE844499CC21FC2D8D47 /* DORouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64428636BD89CCBBE1157D8FD3AAD09B /* DORouter-dummy.m */; };
 		0F80536A0B4692E71E1BF8BA31748557 /* Pods-DORouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 423F83451A0E0238B73F0C4660649C8B /* Pods-DORouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11985BF0D4E4797B7013E966FCACBE36 /* DORouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6789BB061630E493F7F57528C6496473 /* DORouter-dummy.m */; };
 		1F72B4861D08733DDE06AEC431C60586 /* Pods-DORouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 796B650B051B20C5CA1BE70EA54EB16F /* Pods-DORouter_Example-dummy.m */; };
-		2BC263D32E4D3D29A11CC83829097C92 /* DORouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7785FA896DB44BFE414D4E9FA4591D /* DORouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F50EC57708965B3B377D7FDC6AB202C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		507AB2D0B9F9776C060A00F8CDAF7FE6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F85387AE658A650804448674AC5DDA /* ReplaceMe.m */; };
+		43FB94149EC94FF8042272FBAC7AE8A4 /* DORouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD071ED1A5B43834FC39AE3220FA9539 /* DORouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B6DC53C82ADDC347978E31DC767DC9B /* DORouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86637883A82D36A239FF83F4112476 /* DORouter.m */; };
 		5CA4236A5FE9D755F38AF5DE37DA2B37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B450F527EB00E78950CDDF9A44B95A6C /* DORouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5DCD96CAD8A596B4C8E0B01F7F6CC6 /* DORouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B459C9724E5ADCB0431E8AB5F5E4FDC5 /* Pods-DORouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF67297E366C0275E0C1560E7B87E93A /* Pods-DORouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEEF055D350D344C275A2B5D70A09DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DD6578FC8B6ED9BEAF6011934B40EB8F /* Pods-DORouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2478FEF169FCA38B162341631EEB3164 /* Pods-DORouter_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +32,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A65389EFFBB81D0DFD46100EAE7D143;
+			remoteGlobalIDString = 0AF8C63BFEBA0860151DB2EE9756AE4A;
 			remoteInfo = DORouter;
 		};
 /* End PBXContainerItemProxy section */
@@ -40,37 +41,38 @@
 		045C25024CE1C94315B61A1D459647C3 /* Pods-DORouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DORouter_Example.modulemap"; sourceTree = "<group>"; };
 		0F50AC4619FD444ABDD352B0F1100B54 /* Pods-DORouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DORouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		12DBB6A01394E7B2D8D041637358F3A3 /* Pods_DORouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DORouter_Tests.framework; path = "Pods-DORouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F7785FA896DB44BFE414D4E9FA4591D /* DORouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DORouter-umbrella.h"; sourceTree = "<group>"; };
 		206F45E3A17A210D0815378416983F8E /* Pods-DORouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DORouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		22B8D116FE258899163951EE1D98BB13 /* Pods-DORouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DORouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		230E7FB081E99540E2F3A042EAE58CD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2478FEF169FCA38B162341631EEB3164 /* Pods-DORouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DORouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		2495F2B99724090CB53D26C2629ABD66 /* DORouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DORouter-prefix.pch"; sourceTree = "<group>"; };
 		2617ECEA966F1CD1341676401D926664 /* Pods-DORouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DORouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		29B4730C1651EC9100FC4E5936063BA1 /* Pods-DORouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DORouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		34ACDB28E4E9707614FC7D160D91ACD6 /* Pods_DORouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DORouter_Example.framework; path = "Pods-DORouter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		365E9005D4221E1F1FD8FEA882AB82F5 /* DORouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DORouter.xcconfig; sourceTree = "<group>"; };
-		37F85387AE658A650804448674AC5DDA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DORouter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3A8903166F1523C786FDF7794F579B7A /* Pods-DORouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DORouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3E5DCD96CAD8A596B4C8E0B01F7F6CC6 /* DORouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DORouter.h; path = DORouter/Classes/DORouter.h; sourceTree = "<group>"; };
+		3EE1189992234ABEDDA37B1472A5D583 /* DORouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DORouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		423F83451A0E0238B73F0C4660649C8B /* Pods-DORouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DORouter_Example-umbrella.h"; sourceTree = "<group>"; };
+		43B5289931E5EFCD886E365C85D09308 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46CB849A7FE7BE10688D72732AE0A431 /* DORouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DORouter.modulemap; sourceTree = "<group>"; };
 		52DD87174E67CACA357C2120510834C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64428636BD89CCBBE1157D8FD3AAD09B /* DORouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DORouter-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6789BB061630E493F7F57528C6496473 /* DORouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DORouter-dummy.m"; sourceTree = "<group>"; };
+		72C5A4503076FED941A1C0FDE373DDEA /* DORouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DORouter.xcconfig; sourceTree = "<group>"; };
 		77D923D0BC3CFAEEB7093C9606CCE945 /* DORouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DORouter.framework; path = DORouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		787F4BE0B5A6BC6E1A018EB7080591D5 /* DORouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DORouter-prefix.pch"; sourceTree = "<group>"; };
-		78C48E7940223861711F0B85E25FC551 /* DORouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DORouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		796B650B051B20C5CA1BE70EA54EB16F /* Pods-DORouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DORouter_Example-dummy.m"; sourceTree = "<group>"; };
 		8910FD61274FFF22546488CEEDF18B90 /* Pods-DORouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DORouter_Tests.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0EDA22A29BBB342933A53161395A7BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3BA69BAAEBFFA958F00F5F12BF57B80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8F3A6E96653710FFD877967BACE6DF6 /* Pods-DORouter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DORouter_Example-resources.sh"; sourceTree = "<group>"; };
+		AC13FB780DD2EFFE7A2DDF1D4B6B8232 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B0280E18F561E2856E4B6900061377CA /* Pods-DORouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DORouter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BC92BEB51251EB4FEFB485B8CC41841B /* Pods-DORouter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DORouter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BD071ED1A5B43834FC39AE3220FA9539 /* DORouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DORouter-umbrella.h"; sourceTree = "<group>"; };
 		C77C10AB9104E88878603D3969182D5B /* Pods-DORouter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DORouter_Tests-resources.sh"; sourceTree = "<group>"; };
+		CE86637883A82D36A239FF83F4112476 /* DORouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DORouter.m; path = DORouter/Classes/DORouter.m; sourceTree = "<group>"; };
 		D927D0ECC951242DE79E282E1A6BE4AA /* Pods-DORouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DORouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D940FC6E3F155E7558D9401B71908274 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DC55605A6B0992A50F2C53A4E8B44A9A /* DORouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DORouter.modulemap; sourceTree = "<group>"; };
 		DF67297E366C0275E0C1560E7B87E93A /* Pods-DORouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DORouter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E2964796196F8576157F8C013FDCD9D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FD54EF8E1F8A04C7DFE3CAC692433D4D /* Pods-DORouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DORouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,11 +85,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF280491079727C297CE0079E55DB75D /* Frameworks */ = {
+		2DB3B9DF7DA9908F24B6AEB59C33F7EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				097F37B915AD53079FAB5810B97C8B71 /* Foundation.framework in Frameworks */,
+				BEEF055D350D344C275A2B5D70A09DB5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,26 +104,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23C7B2E498F1D88C7E31D714C94CFBEE /* DORouter */ = {
+		2531414A5ED5EC4AE8C1A4DA93976E64 /* DORouter */ = {
 			isa = PBXGroup;
 			children = (
-				37F85387AE658A650804448674AC5DDA /* ReplaceMe.m */,
-				FF71B6ADC726B14D6603AB4454757EC2 /* Pod */,
-				49F48EFB5AD9538716B63D6C5B079B42 /* Support Files */,
+				3E5DCD96CAD8A596B4C8E0B01F7F6CC6 /* DORouter.h */,
+				CE86637883A82D36A239FF83F4112476 /* DORouter.m */,
+				D54F09932D366CDA2156CB9431FB34FA /* Pod */,
+				32F677770E167B306C7E50DEE48AB763 /* Support Files */,
 			);
 			name = DORouter;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		49F48EFB5AD9538716B63D6C5B079B42 /* Support Files */ = {
+		32F677770E167B306C7E50DEE48AB763 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC55605A6B0992A50F2C53A4E8B44A9A /* DORouter.modulemap */,
-				365E9005D4221E1F1FD8FEA882AB82F5 /* DORouter.xcconfig */,
-				6789BB061630E493F7F57528C6496473 /* DORouter-dummy.m */,
-				787F4BE0B5A6BC6E1A018EB7080591D5 /* DORouter-prefix.pch */,
-				1F7785FA896DB44BFE414D4E9FA4591D /* DORouter-umbrella.h */,
-				A3BA69BAAEBFFA958F00F5F12BF57B80 /* Info.plist */,
+				46CB849A7FE7BE10688D72732AE0A431 /* DORouter.modulemap */,
+				72C5A4503076FED941A1C0FDE373DDEA /* DORouter.xcconfig */,
+				64428636BD89CCBBE1157D8FD3AAD09B /* DORouter-dummy.m */,
+				2495F2B99724090CB53D26C2629ABD66 /* DORouter-prefix.pch */,
+				BD071ED1A5B43834FC39AE3220FA9539 /* DORouter-umbrella.h */,
+				43B5289931E5EFCD886E365C85D09308 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/DORouter";
@@ -137,23 +140,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7A3231ED085C4C77AA8B33624D35FE73 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2531414A5ED5EC4AE8C1A4DA93976E64 /* DORouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8703282359CDDF5D84530A67958F8616 /* Development Pods */,
+				7A3231ED085C4C77AA8B33624D35FE73 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				79A5ADBAEDC7F59068306ACBE6B31650 /* Products */,
 				AB2F088A23F9BFD119F3B3002B439625 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8703282359CDDF5D84530A67958F8616 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				23C7B2E498F1D88C7E31D714C94CFBEE /* DORouter */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		99F5479B1C32A1D6DCD55F49F886ED24 /* Pods-DORouter_Tests */ = {
@@ -217,12 +220,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FF71B6ADC726B14D6603AB4454757EC2 /* Pod */ = {
+		D54F09932D366CDA2156CB9431FB34FA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				78C48E7940223861711F0B85E25FC551 /* DORouter.podspec */,
-				D940FC6E3F155E7558D9401B71908274 /* LICENSE */,
-				E2964796196F8576157F8C013FDCD9D4 /* README.md */,
+				3EE1189992234ABEDDA37B1472A5D583 /* DORouter.podspec */,
+				AC13FB780DD2EFFE7A2DDF1D4B6B8232 /* LICENSE */,
+				230E7FB081E99540E2F3A042EAE58CD7 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -230,6 +233,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		AFC65B19E3B0F15104167363CBA194BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FB94149EC94FF8042272FBAC7AE8A4 /* DORouter-umbrella.h in Headers */,
+				B450F527EB00E78950CDDF9A44B95A6C /* DORouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BE343ADB0A2A7EBD61EB24860C06A581 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,17 +258,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDF9586DD699CFE9C42F5AFD2E47B62A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BC263D32E4D3D29A11CC83829097C92 /* DORouter-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0AF8C63BFEBA0860151DB2EE9756AE4A /* DORouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0662C24441B9D315369441DE4C271BB /* Build configuration list for PBXNativeTarget "DORouter" */;
+			buildPhases = (
+				6B4BC3D96C7F4AAE70A336A9054DA5CB /* Sources */,
+				2DB3B9DF7DA9908F24B6AEB59C33F7EB /* Frameworks */,
+				AFC65B19E3B0F15104167363CBA194BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DORouter;
+			productName = DORouter;
+			productReference = 77D923D0BC3CFAEEB7093C9606CCE945 /* DORouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		37A0C4DF632C77B1DDFB79A09BE64C65 /* Pods-DORouter_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D540FC5211850891E76848AD910B8B88 /* Build configuration list for PBXNativeTarget "Pods-DORouter_Tests" */;
@@ -273,23 +294,6 @@
 			name = "Pods-DORouter_Tests";
 			productName = "Pods-DORouter_Tests";
 			productReference = 12DBB6A01394E7B2D8D041637358F3A3 /* Pods_DORouter_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9A65389EFFBB81D0DFD46100EAE7D143 /* DORouter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 262FC2FDAB9AD052E58EEF2AA96101D9 /* Build configuration list for PBXNativeTarget "DORouter" */;
-			buildPhases = (
-				0375E9091D6529D21F47B9C037651AF8 /* Sources */,
-				EF280491079727C297CE0079E55DB75D /* Frameworks */,
-				EDF9586DD699CFE9C42F5AFD2E47B62A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DORouter;
-			productName = DORouter;
-			productReference = 77D923D0BC3CFAEEB7093C9606CCE945 /* DORouter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D969DEA8F7D98C5B8C77FF79E885534C /* Pods-DORouter_Example */ = {
@@ -331,7 +335,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A65389EFFBB81D0DFD46100EAE7D143 /* DORouter */,
+				0AF8C63BFEBA0860151DB2EE9756AE4A /* DORouter */,
 				D969DEA8F7D98C5B8C77FF79E885534C /* Pods-DORouter_Example */,
 				37A0C4DF632C77B1DDFB79A09BE64C65 /* Pods-DORouter_Tests */,
 			);
@@ -339,12 +343,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0375E9091D6529D21F47B9C037651AF8 /* Sources */ = {
+		6B4BC3D96C7F4AAE70A336A9054DA5CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11985BF0D4E4797B7013E966FCACBE36 /* DORouter-dummy.m in Sources */,
-				507AB2D0B9F9776C060A00F8CDAF7FE6 /* ReplaceMe.m in Sources */,
+				0AFE48BFB311DE844499CC21FC2D8D47 /* DORouter-dummy.m in Sources */,
+				4B6DC53C82ADDC347978E31DC767DC9B /* DORouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +374,7 @@
 		119AFE2D6EAD74DB8DED1EC1F15D6739 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DORouter;
-			target = 9A65389EFFBB81D0DFD46100EAE7D143 /* DORouter */;
+			target = 0AF8C63BFEBA0860151DB2EE9756AE4A /* DORouter */;
 			targetProxy = CF30E992BA7D182F2DA0642A544922CF /* PBXContainerItemProxy */;
 		};
 		4CA80DDF24F65D61B38FE20A50858111 /* PBXTargetDependency */ = {
@@ -415,9 +419,9 @@
 			};
 			name = Debug;
 		};
-		7ECC9C88B2388E051FFAC3710BCA1FCF /* Debug */ = {
+		6F1268EFBCDFECB82600C04DA642CCC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 365E9005D4221E1F1FD8FEA882AB82F5 /* DORouter.xcconfig */;
+			baseConfigurationReference = 72C5A4503076FED941A1C0FDE373DDEA /* DORouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -507,6 +511,37 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		954AFB3BA48B250F742927A28DE19AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C5A4503076FED941A1C0FDE373DDEA /* DORouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DORouter/DORouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DORouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DORouter/DORouter.modulemap";
+				PRODUCT_MODULE_NAME = DORouter;
+				PRODUCT_NAME = DORouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A259E0BA644410B75ED32EF368F4B41B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -599,37 +634,6 @@
 			};
 			name = Release;
 		};
-		B5AC59BAE774F1A6692D5375F06FE9B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 365E9005D4221E1F1FD8FEA882AB82F5 /* DORouter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DORouter/DORouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DORouter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DORouter/DORouter.modulemap";
-				PRODUCT_MODULE_NAME = DORouter;
-				PRODUCT_NAME = DORouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B8124EB34B7E4BF26D283E4811EEEFD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D927D0ECC951242DE79E282E1A6BE4AA /* Pods-DORouter_Example.release.xcconfig */;
@@ -701,20 +705,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		262FC2FDAB9AD052E58EEF2AA96101D9 /* Build configuration list for PBXNativeTarget "DORouter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7ECC9C88B2388E051FFAC3710BCA1FCF /* Debug */,
-				B5AC59BAE774F1A6692D5375F06FE9B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
 				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0662C24441B9D315369441DE4C271BB /* Build configuration list for PBXNativeTarget "DORouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1268EFBCDFECB82600C04DA642CCC8 /* Debug */,
+				954AFB3BA48B250F742927A28DE19AA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
