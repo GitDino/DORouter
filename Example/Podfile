@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DORouter_Example' do
+  pod 'DORouter', :path => '../'
+
+  target 'DORouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
